@@ -1,0 +1,26 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 140 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 3598 0 -1
+ciMethod java/lang/String charAt (I)C 17001 1 8073 0 -1
+ciMethod java/lang/String substring (II)Ljava/lang/String; 2057 1 419 0 -1
+ciMethod java/lang/System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V 9217 1 1152 0 -1
+ciMethod java/lang/StringBuffer <init> (I)V 257 1 153 0 -1
+ciMethod java/lang/StringBuffer length ()I 41 1 5 0 -1
+ciMethod java/lang/StringBuffer charAt (I)C 0 0 1 0 -1
+ciMethod java/lang/StringBuffer append (Ljava/lang/String;)Ljava/lang/StringBuffer; 1153 1 144 0 -1
+ciMethod java/lang/StringBuffer append (C)Ljava/lang/StringBuffer; 2209 1 6728 0 -1
+ciMethod java/lang/StringBuffer toString ()Ljava/lang/String; 241 1 152 0 -1
+ciMethod java/lang/AbstractStringBuilder <init> (I)V 1281 1 528 0 -1
+ciMethod java/lang/AbstractStringBuilder ensureCapacityInternal (I)V 3145 1 12022 0 -1
+ciMethod java/lang/AbstractStringBuilder newCapacity (I)I 1785 1 434 0 -1
+ciMethod java/lang/AbstractStringBuilder append (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder; 2369 1 1028 0 -1
+ciMethod java/lang/AbstractStringBuilder append (C)Ljava/lang/AbstractStringBuilder; 2737 1 10994 0 -1
+ciMethod java/lang/Math min (II)I 4097 1 2830 0 -1
+ciMethod java/util/Arrays copyOf ([CI)[C 2009 1 489 0 -1
+ciMethod java/io/WinNTFileSystem isSlash (C)Z 2449 1 5426 0 -1
+ciMethod java/io/WinNTFileSystem normalize (Ljava/lang/String;II)Ljava/lang/String; 129 6457 103 0 -1
+ciMethod java/io/WinNTFileSystem normalizePrefix (Ljava/lang/String;ILjava/lang/StringBuffer;)I 825 825 103 0 -1
+ciMethodData java/lang/Object <init> ()V 2 3598 orig 264 72 34 253 111 0 0 0 0 104 4 159 18 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 113 96 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/lang/String charAt (I)C 2 8073 orig 264 72 34 253 111 0 0 0 0 240 59 159 18 0 0 0 0 120 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 225 185 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 8 0 2 0 0 0 80 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 10 0x10007 0x0 0x40 0x173c 0xa0007 0x173c 0x30 0x0 0x120002 0x0 oops 0
